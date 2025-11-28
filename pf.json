@@ -1,0 +1,43 @@
+[
+  {
+    "id": "001",
+    "task_name": "Short_Summary",
+    "original_prompt": "Summarize the key findings of the recent Mars rover mission.",
+    "ground_truth": "The rover found evidence of ancient liquid water.",
+    "test_cases": [
+      {
+        "variant_id": "001_1",
+        "perturbation_type": ["Synonym_Replacement","Word_bug"],
+        "perturbed_prompt": "Please condense the core resulta of the latest Mars rover mission.",
+        "perturbed_output": "The probe found signs of ancient liquid water deposits."
+      },
+      {
+        "variant_id": "001_2",
+        "perturbation_type": "Rephrasing_Active_Voice",
+        "perturbed_prompt": "What did the recent Mars rover mission find?",
+        "perturbed_output": "Ancient liquid water evidence was found by the rover."
+      }
+    ]
+  }
+  {
+    "id": "002",
+    "task_name": "Code",
+    "original_prompt": "Code for task X",
+    "ground_truth": "<Expected code or the response from an ideal engineered prompt>",
+    "test_cases": [
+      {
+        "variant_id": "002_1",
+        "perturbation_type": ["Synonym_Replacement","Word_bug"],
+        "perturbed_prompt": "Hi....pls give me the code to perform task X",
+        "perturbed_output": "#include .............."
+      },
+      {
+        "variant_id": "002_2",
+        "perturbation_type": "Reordering",
+        "perturbed_prompt": "Need a code for task X. can u pls write it",
+        "perturbed_output": ".............."
+      }
+    ]
+  }
+   
+]
