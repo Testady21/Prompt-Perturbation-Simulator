@@ -77,17 +77,21 @@ python query_agent.py
     "test_cases": [
       {
         "variant_id": "001_1",
-        "perturbation_type": ["Synonym_Replacement","Word_bug"],
+        "perturbation_type": ["Synonym_Replacement", "Word_bug"],
         "perturbed_prompt": "Please condense the core resulta of the latest Mars rover mission.",
         "perturbed_output": "The probe found signs of ancient liquid water deposits."
-      },....
+      }
     ]
   },
   {
     "id": "002",
     "task_name": "Code",
-    "original_prompt":...
-  },....
+    "original_prompt": "Write a Python function to compute the Fibonacci sequence up to N.",
+    "ground_truth": "def fibonacci(n): ...",
+    "test_cases": [
+        // ... variants for task 002
+    ]
+  }
 ]
 ```
 ---
