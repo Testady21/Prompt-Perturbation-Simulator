@@ -112,4 +112,4 @@ MIT License © 2025
 ## 🧑‍💻 Author
 
 **Testady21**
-- GitHub: https://github.com/<Testady21>
+- GitHub: https://github.com/Testady21
