@@ -74,7 +74,6 @@ python query_agent.py
   "response": "..."
 }
 ```
-'''
 ---
 
 ## 🛠 Requirements
