@@ -1,0 +1,21 @@
+===donkey kong===
+Simulation Date and Time (UTC): 2025-12-06 19:13:29
+Metric: BERTScore F1 (Reference: Ground Truth, Candidate: Perturbed Output)
+----------------------------------------------------------------------
+## Average BERTScore F1 by Perturbation Type (Relative to Ground Truth)
+----------------------------------------------------------------------
+Perturbation Type  Average BERTScore F1
+      textfooler1              0.613806
+      textfooler2              0.622149
+      textfooler3              0.583024
+      textfooler4              0.541546
+      textfooler5              0.566951
+         wordbug1              0.537485
+         wordbug2              0.607413
+         wordbug3              0.620777
+         wordbug4              0.607484
+         wordbug5              0.568839
+----------------------------------------------------------------------
+Overall Average BERTScore F1: 0.5869
+===
+

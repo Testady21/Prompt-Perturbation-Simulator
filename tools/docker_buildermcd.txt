@@ -1,0 +1,6 @@
+docker run -d \
+  --name ollama-service \
+  --gpus=all \
+  -p 11437:11434 \
+  -v ollama:/root/.ollama \
+  ollama/ollama

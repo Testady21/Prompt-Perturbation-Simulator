@@ -1,0 +1,9 @@
+Technique	Type	Example
+Random synonym substitution	semantic	 
+Back-translation	 
+Random shuffling of phrases
+Stopword removal/insertion	 
+Casing perturbation	 
+Paraphrasing models	generative	 
+Noise / punctuation injection	 
+Homophone substitution	 
