@@ -65,14 +65,30 @@ python query_agent.py
 
 ## 📁 Dataset Format
 
-### Sample JSONL entry
+### Sample JSON entry
  
 ```json
-{
-  "original_prompt": "Explain quantum computing to a child",
-  "perturbed_prompt": "Describe quantum computers to a young student",
-  "response": "..."
-}
+[
+  {
+    "id": "001",
+    "task_name": "Short_Summary",
+    "original_prompt": "Summarize the key findings of the recent Mars rover mission.",
+    "ground_truth": "The rover found evidence of ancient liquid water.",
+    "test_cases": [
+      {
+        "variant_id": "001_1",
+        "perturbation_type": ["Synonym_Replacement","Word_bug"],
+        "perturbed_prompt": "Please condense the core resulta of the latest Mars rover mission.",
+        "perturbed_output": "The probe found signs of ancient liquid water deposits."
+      },....
+    ]
+  },
+  {
+    "id": "002",
+    "task_name": "Code",
+    "original_prompt":...
+  },....
+]
 ```
 ---
 
