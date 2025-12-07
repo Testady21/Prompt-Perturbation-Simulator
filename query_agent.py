@@ -2,7 +2,7 @@ from langchain_community.llms.ollama import Ollama
 
 
 class QueryAgent:
-    """S
+    """
     A class to manage interactions with a self-hosted Ollama LLM,
     including optional conversation history.
     """
