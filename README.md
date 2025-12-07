@@ -89,7 +89,7 @@ python query_agent.py
     "original_prompt": "Write a Python function to compute the Fibonacci sequence up to N.",
     "ground_truth": "def fibonacci(n): ...",
     "test_cases": [
-          ... variants for task 002
+        "... variants for task 002"
     ]
   }
 ]
