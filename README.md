@@ -18,19 +18,34 @@ Prompt Perturbation Simulator is an NLP research and experimentation framework f
 
 ```
 Prompt-Perturbation-Simulator/
+│   .gitattributes
+│   bert-score-sim.py
+│   LICENSE
+│   possible tests.txt
+│   query_agent.py
+│   README.md
+│   requirements.txt
+│   results.txt
 │
-├── dataset_generation/
-│   ├── pdat_runner.py
-│   ├── pdat_runner_updated.py
-│   ├── prompt_response_generator.py
-│   └── prompt_response_dataset.jsonl
+├───datasets
+│       base_dataset.json
+│       base_variants_dataset.json
+│       clean_levels_dataset.json
+│       clean_variants_dataset.json
+│       levels_llama3.2.json
+│       prompts.json
+│       prompt_response_dataset.jsonl
 │
-├── datasets/
-│   └── levels_llama3.2.json
+├───dataset_generation
+│       levels_datgen.py
+│       pdat_runner.py
+│       pdat_runner_updated.py
+│       prompt_response_generator.py
+│       variants_datgen.py
 │
-├── query_agent.py
-├── README.md
-└── requirements.txt
+└───tools
+        dataset_cleaner.py
+        docker_buildermcd.txt
 ```
 
 ---
