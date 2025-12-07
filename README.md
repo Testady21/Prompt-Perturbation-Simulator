@@ -67,7 +67,7 @@ python query_agent.py
 
 ### Sample JSON entry
  
-```json
+```bash
 [
   {
     "id": "001",
