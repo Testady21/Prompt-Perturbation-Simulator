@@ -26,26 +26,36 @@ Prompt-Perturbation-Simulator/
 │   README.md
 │   requirements.txt
 │   results.txt
-│
+|
 ├───datasets
-│       base_dataset.json
-│       base_variants_dataset.json
-│       clean_levels_dataset.json
-│       clean_variants_dataset.json
-│       levels_llama3.2.json
-│       prompts.json
-│       prompt_response_dataset.jsonl
+│   │   base_dataset.json
+│   │   base_variants_dataset.json
+│   │   clean_levels_dataset.json
+│   │   clean_variants_dataset.json
+│   │   prompts.json
+│   │   prompt_response_dataset.jsonl
+│   │
+│   └───llm-tests
+│           levels_gemma.json
+│           levels_llama3.2.json
+│           levels_mistral.json
+│           levels_phi3.json
+│           levels_qwen2.json
+│           variants_gemma.json
+│           variants_llama3.2.json
+│           variants_mistral.json
+│           variants_phi3.json
+│           variants_qwen2.json
 │
 ├───dataset_generation
-│       levels_datgen.py
-│       pdat_runner.py
-│       pdat_runner_updated.py
+│       datgen_levels.py
+│       datgen_variants.py
 │       prompt_response_generator.py
-│       variants_datgen.py
+│       response_dataset_builder.py
 │
 └───tools
         dataset_cleaner.py
-        docker_buildermcd.txt
+        docker_buildercmd.txt
 ```
 
 ---
