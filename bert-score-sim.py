@@ -29,7 +29,6 @@ def process_and_score_dataset(file_path):
     data = json.loads(data_json_string)
     records = []
 
-    # 1. Flatten the dataset into scoreable records
     for task in data:
         ground_truth = task['ground_truth']
         for test_case in task['test_cases']:
@@ -72,9 +71,6 @@ def process_and_score_dataset(file_path):
     return results, overall_avg
 
 def format_results_for_file(results_df, overall_avg, title):
-    """
-    Formats the aggregated results into the required text file format.
-    """
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
     output_lines = [
