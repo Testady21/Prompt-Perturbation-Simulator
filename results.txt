@@ -1,21 +1,210 @@
-===donkey kong===
-Simulation Date and Time (UTC): 2025-12-06 19:13:29
+===datasets/llm-tests/levels_gemma.json===
+Simulation Date and Time (UTC): 2025-12-11 22:43:27
 Metric: BERTScore F1 (Reference: Ground Truth, Candidate: Perturbed Output)
 ----------------------------------------------------------------------
 ## Average BERTScore F1 by Perturbation Type (Relative to Ground Truth)
 ----------------------------------------------------------------------
 Perturbation Type  Average BERTScore F1
-      textfooler1              0.613806
-      textfooler2              0.622149
-      textfooler3              0.583024
-      textfooler4              0.541546
-      textfooler5              0.566951
-         wordbug1              0.537485
-         wordbug2              0.607413
-         wordbug3              0.620777
-         wordbug4              0.607484
-         wordbug5              0.568839
+      textfooler1              0.715252
+      textfooler2              0.709751
+      textfooler3              0.698432
+      textfooler4              0.682153
+      textfooler5              0.671838
+         wordbug1              0.723456
+         wordbug2              0.730216
+         wordbug3              0.715150
+         wordbug4              0.701398
+         wordbug5              0.720502
 ----------------------------------------------------------------------
-Overall Average BERTScore F1: 0.5869
+Overall Average BERTScore F1: 0.7068
+===
+
+===datasets/llm-tests/levels_llama3.2.json===
+Simulation Date and Time (UTC): 2025-12-11 22:44:20
+Metric: BERTScore F1 (Reference: Ground Truth, Candidate: Perturbed Output)
+----------------------------------------------------------------------
+## Average BERTScore F1 by Perturbation Type (Relative to Ground Truth)
+----------------------------------------------------------------------
+Perturbation Type  Average BERTScore F1
+      textfooler1              0.408281
+      textfooler2              0.408641
+      textfooler3              0.406790
+      textfooler4              0.403286
+      textfooler5              0.402200
+         wordbug1              0.408829
+         wordbug2              0.407835
+         wordbug3              0.408070
+         wordbug4              0.405217
+         wordbug5              0.407301
+----------------------------------------------------------------------
+Overall Average BERTScore F1: 0.4066
+===
+
+===datasets/llm-tests/levels_mistral.json===
+Simulation Date and Time (UTC): 2025-12-11 22:45:10
+Metric: BERTScore F1 (Reference: Ground Truth, Candidate: Perturbed Output)
+----------------------------------------------------------------------
+## Average BERTScore F1 by Perturbation Type (Relative to Ground Truth)
+----------------------------------------------------------------------
+Perturbation Type  Average BERTScore F1
+      textfooler1              0.687147
+      textfooler2              0.677805
+      textfooler3              0.669727
+      textfooler4              0.657430
+      textfooler5              0.650755
+         wordbug1              0.685863
+         wordbug2              0.687734
+         wordbug3              0.684749
+         wordbug4              0.679035
+         wordbug5              0.679971
+----------------------------------------------------------------------
+Overall Average BERTScore F1: 0.6760
+===
+
+===datasets/llm-tests/levels_phi3.json===
+Simulation Date and Time (UTC): 2025-12-11 22:45:57
+Metric: BERTScore F1 (Reference: Ground Truth, Candidate: Perturbed Output)
+----------------------------------------------------------------------
+## Average BERTScore F1 by Perturbation Type (Relative to Ground Truth)
+----------------------------------------------------------------------
+Perturbation Type  Average BERTScore F1
+      textfooler1              0.765538
+      textfooler2              0.763840
+      textfooler3              0.750981
+      textfooler4              0.752818
+      textfooler5              0.759302
+         wordbug1              0.764332
+         wordbug2              0.758504
+         wordbug3              0.757178
+         wordbug4              0.756922
+         wordbug5              0.758122
+----------------------------------------------------------------------
+Overall Average BERTScore F1: 0.7588
+===
+
+===datasets/llm-tests/levels_qwen2.json===
+Simulation Date and Time (UTC): 2025-12-11 22:48:16
+Metric: BERTScore F1 (Reference: Ground Truth, Candidate: Perturbed Output)
+----------------------------------------------------------------------
+## Average BERTScore F1 by Perturbation Type (Relative to Ground Truth)
+----------------------------------------------------------------------
+Perturbation Type  Average BERTScore F1
+      textfooler1              0.675739
+      textfooler2              0.667533
+      textfooler3              0.663329
+      textfooler4              0.651962
+      textfooler5              0.642659
+         wordbug1              0.675003
+         wordbug2              0.682719
+         wordbug3              0.679571
+         wordbug4              0.679664
+         wordbug5              0.672315
+----------------------------------------------------------------------
+Overall Average BERTScore F1: 0.6690
+===
+
+===datasets/llm-tests/variants_gemma.json===
+Simulation Date and Time (UTC): 2025-12-11 22:50:22
+Metric: BERTScore F1 (Reference: Ground Truth, Candidate: Perturbed Output)
+----------------------------------------------------------------------
+## Average BERTScore F1 by Perturbation Type (Relative to Ground Truth)
+----------------------------------------------------------------------
+          Perturbation Type  Average BERTScore F1
+        casing_perturbation              0.717236
+     homophone_substitution              0.726842
+noise_punctuation_injection              0.725011
+     paraphrasing_simulated              0.641025
+           phrase_shuffling              0.702476
+ stopword_removal_insertion              0.725411
+            textfooler_lvl5              0.679604
+           typographic_swap              0.712148
+               wordbug_lvl5              0.707792
+wordbug_textfooler_combined              0.647850
+----------------------------------------------------------------------
+Overall Average BERTScore F1: 0.6985
+===
+
+===datasets/llm-tests/variants_llama3.2.json===
+Simulation Date and Time (UTC): 2025-12-11 22:51:45
+Metric: BERTScore F1 (Reference: Ground Truth, Candidate: Perturbed Output)
+----------------------------------------------------------------------
+## Average BERTScore F1 by Perturbation Type (Relative to Ground Truth)
+----------------------------------------------------------------------
+          Perturbation Type  Average BERTScore F1
+        casing_perturbation              0.682519
+     homophone_substitution              0.676797
+noise_punctuation_injection              0.683656
+     paraphrasing_simulated              0.599695
+           phrase_shuffling              0.663401
+ stopword_removal_insertion              0.676960
+            textfooler_lvl5              0.641171
+           typographic_swap              0.670373
+               wordbug_lvl5              0.675556
+wordbug_textfooler_combined              0.612066
+----------------------------------------------------------------------
+Overall Average BERTScore F1: 0.6582
+===
+
+===datasets/llm-tests/variants_mistral.json===
+Simulation Date and Time (UTC): 2025-12-11 22:52:36
+Metric: BERTScore F1 (Reference: Ground Truth, Candidate: Perturbed Output)
+----------------------------------------------------------------------
+## Average BERTScore F1 by Perturbation Type (Relative to Ground Truth)
+----------------------------------------------------------------------
+          Perturbation Type  Average BERTScore F1
+        casing_perturbation              0.680964
+     homophone_substitution              0.691607
+noise_punctuation_injection              0.691408
+     paraphrasing_simulated              0.626201
+           phrase_shuffling              0.662207
+ stopword_removal_insertion              0.680755
+            textfooler_lvl5              0.650355
+           typographic_swap              0.676017
+               wordbug_lvl5              0.672063
+wordbug_textfooler_combined              0.636553
+----------------------------------------------------------------------
+Overall Average BERTScore F1: 0.6668
+===
+
+===datasets/llm-tests/variants_phi3.json===
+Simulation Date and Time (UTC): 2025-12-11 22:53:11
+Metric: BERTScore F1 (Reference: Ground Truth, Candidate: Perturbed Output)
+----------------------------------------------------------------------
+## Average BERTScore F1 by Perturbation Type (Relative to Ground Truth)
+----------------------------------------------------------------------
+          Perturbation Type  Average BERTScore F1
+        casing_perturbation              0.774928
+     homophone_substitution              0.781607
+noise_punctuation_injection              0.773122
+     paraphrasing_simulated              0.773925
+           phrase_shuffling              0.776158
+ stopword_removal_insertion              0.784641
+            textfooler_lvl5              0.774407
+           typographic_swap              0.774620
+               wordbug_lvl5              0.769343
+wordbug_textfooler_combined              0.770628
+----------------------------------------------------------------------
+Overall Average BERTScore F1: 0.7753
+===
+
+===datasets/llm-tests/variants_qwen2.json===
+Simulation Date and Time (UTC): 2025-12-11 22:55:25
+Metric: BERTScore F1 (Reference: Ground Truth, Candidate: Perturbed Output)
+----------------------------------------------------------------------
+## Average BERTScore F1 by Perturbation Type (Relative to Ground Truth)
+----------------------------------------------------------------------
+          Perturbation Type  Average BERTScore F1
+        casing_perturbation              0.674728
+     homophone_substitution              0.675545
+noise_punctuation_injection              0.677785
+     paraphrasing_simulated              0.638525
+           phrase_shuffling              0.658573
+ stopword_removal_insertion              0.672970
+            textfooler_lvl5              0.655957
+           typographic_swap              0.669176
+               wordbug_lvl5              0.675013
+wordbug_textfooler_combined              0.641661
+----------------------------------------------------------------------
+Overall Average BERTScore F1: 0.6640
 ===
 

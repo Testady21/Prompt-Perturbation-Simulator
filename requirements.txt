@@ -5,3 +5,4 @@ tqdm==4.66.1
 langchain-community==0.0.291
 tf-keras==2.11.0
 tensorflow==2.13.0
+bert-score==0.3.13
